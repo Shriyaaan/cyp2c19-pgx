@@ -1,0 +1,8 @@
+*.vcf.gz
+*.vcf.bgz
+*.tbi
+reference.fna*
+full_out/
+full_pre/
+test_out/
+*.jar
