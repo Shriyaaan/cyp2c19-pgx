@@ -2,8 +2,6 @@
 
 A reproducible pharmacogenomics analysis using public whole-genome data from the 1000 Genomes Project. It estimates, for each population, the percentage of people whose CYP2C19 genotype leads CPIC to advise an alternative to clopidogrel, and compares five South Asian populations with European, East Asian and African populations.
 
-Author: Shriya A.N.
-
 ## Question
 
 CYP2C19 activates the antiplatelet drug clopidogrel. People who carry loss-of-function alleles (such as \*2 and \*3) make less active drug and are at higher risk of cardiovascular events. CPIC guidelines recommend an alternative (prasugrel or ticagrelor) for intermediate and poor metabolizers who have had a heart attack or stent. South Asian populations are often treated as one group in PGx studies, so this project reports the five 1000 Genomes South Asian populations (BEB, GIH, ITU, PJL, STU) separately.
@@ -43,8 +41,6 @@ The \*2 no-function allele is common in the South Asian populations (32.6% to 41
 - **Genotypes:** 1000 Genomes high-coverage (30x) whole-genome data from the New York Genome Center, GRCh38, phased SNV/INDEL/SV VCF for chromosome 10 (Byrska-Bishop et al., Cell 2022).
 - **Samples:** the 2,157 unrelated individuals from the phase 3 panel in the South Asian, European, East Asian and African super-populations (admixed American samples were not used).
 - **Region:** chr10:94,700,000-94,900,000 (GRCh38), a window around CYP2C19.
-
-The large input files are not stored in this repository. See "How to reproduce".
 
 ## Methods
 
@@ -94,8 +90,6 @@ python3 scripts/allele_freq.py
 - CYP2C19 was called from a VCF containing only the CYP2C19 region; no structural-variant or second-caller check was done.
 
 ## Not for clinical use
-
-This is a research and learning project. It must not be used to make prescribing decisions.
 
 ## References
 
